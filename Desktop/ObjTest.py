@@ -23,20 +23,20 @@ class BTest(ATest):
 		super(BTest,self).__init__(value)
 
 
-t = ATest(171)
-print 'print a = %s'%t.a
-print 'print b = %s'%t.b
-t.a = 123
+#t = ATest(171)
+#print 'print a = %s'%t.a
+#print 'print b = %s'%t.b
+#t.a = 123
 t.b = 'hello,world'
 print 'print a = %s'%t.a
-print 'print b = %s'%t.b
+#print 'print b = %s'%t.b
 print 'print c = %s'%t.c
 t.c = 'testting!!'
 bt = BTest('hello,world')
 bt.a = 'B'
-bt.c = 'gew'
+#bt.c = 'gew'
 print 'print bt.c = %s'%bt.c
 setattr(ATest,'btest','heihei')
-bbt = BTest('i want nothing')
+#bbt = BTest('i want nothing')
 print 'bbt.btest = %s'%bbt.btest
 print 't.btest = %s'%t.btest
